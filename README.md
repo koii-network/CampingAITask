@@ -15,7 +15,7 @@ We made this repo during a Webinar.
     OPENAI_API_KEY="sk-proj-IKW4p9KUj32CkYLMakfMgBbkyThn-re1aKn9pJUoMA"
 
 
-
+Find the endpoint at: http://localhost:30017/task/FGzVTXn6iZFhFo9FgWW6zoHfDkJepQkKKKPfMvDdvePv/question
 
 
 ## Koii Task Development: Step-by-Step Guide
