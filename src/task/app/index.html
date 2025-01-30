@@ -161,7 +161,11 @@
                     });
 
                     const data = await response.json();
-                    addMessage(data);
+                    console.log("DATA RECEIVED:", data);
+
+                    // we received this:       res.json({ response: responseText });
+                    // so we need to access the response property
+                    addMessage(data.response);
                 } catch (error) {
                     addMessage('Sorry, I encountered an error. Please try again.');
                     console.error('Error:', error);

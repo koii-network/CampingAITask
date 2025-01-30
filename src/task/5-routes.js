@@ -16,7 +16,7 @@ export async function routes() {
   app.use(express.json());
 
 
-
+  // IF YOU"RE USING THIS TEMPLATE, MAKE SURE TO USE THE NAMESPACEWRAPPERS FS FUNCTION TO GET THE FILES FROM IPFS AS A DOWNLOADABLE FILE
   // route that serves an index.html file
   app.get("/question", async (_req, res) => {
     res.sendFile('index.html', { root: 'D:/_Koii_Projects/CampingAI/0-0-2/src/task/app' });
