@@ -1,4 +1,22 @@
-# Koii Task Template
+# Koii Camping AI
+
+Here is a flowchart of how this task should work:
+![Flowchart:](Screenshot%202025-01-30%20121842.png)
+
+We made this repo during a Webinar. 
+
+    // YOU'LL NEED TO FIX THESE LINES IF YOU CLONE THIS REPO
+
+    Line 22 in 5-routes.js:
+    res.sendFile('index.html', { root: 'D:/_Koii_Projects/CampingAI/0-0-2/src/task/app' });
+
+    You'll also need to add your OpenAI API key to the .env file.
+    example:
+    OPENAI_API_KEY="sk-proj-IKW4p9KUj32CkYLMakfMgBbkyThn-re1aKn9pJUoMA"
+
+
+Find the endpoint at: http://localhost:30017/task/FGzVTXn6iZFhFo9FgWW6zoHfDkJepQkKKKPfMvDdvePv/question
+
 
 ## Koii Task Development: Step-by-Step Guide
 

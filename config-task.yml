@@ -5,7 +5,7 @@
 
 ## Task Name ##
 # Maximum 24 characters.
-task_name: "Task Name"
+task_name: "Camping Testing Task"
 
 ## Task Author ##
 author: "Koii"
@@ -62,7 +62,7 @@ minimum_stake_amount: 0.1
 
 ## Task Bounty Type ##
 # KOII or KPL
-task_type: "KPL"
+task_type: "KOII"
 
 ## Token Mint Address (ONLY for KPL tasks) ##
 # The Fire Token address is provided as an example.
@@ -76,7 +76,7 @@ total_bounty_amount: 10
 ## Bounty Amount per Round ##
 # The maximum amount that can be distributed per round.
 # If the actual distribution per round exceeds this amount, the distribution list will fail.
-bounty_amount_per_round: 0.1
+bounty_amount_per_round: 0
 
 ## Allowed Failed Distributions ##
 # Number of retries allowed for the distribution list if it is fails audit.
@@ -100,12 +100,12 @@ requirementsTags:
   - type: STORAGE
     value: "5 GB"
   - type: TASK_VARIABLE
-    value: "TEST_VARIABLE"
-    description: "An example to demonstrate the use of task variables."
+    value: "OPENAI_API_KEY"
+    description: "Demo OpenAI API Key"
 
 ## Tags ##
 # See https://www.koii.network/docs/develop/command-line-tool/create-task-cli/create-task#tags for available tag options.
-tags: ["Witness"]
+tags: ["Testing"]
 
 # Environment ##
 # TEST or PRODUCTION
